@@ -12,7 +12,7 @@ export default function Contact() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl mb-16"
         >
-          <h1 className="font-serif text-5xl md:text-7xl mb-6">Connect</h1>
+          <h1 className="font-sans text-5xl md:text-7xl mb-6">Connect</h1>
           <p className="text-foreground/70 text-xl leading-relaxed font-light">
             Whether you want to host a screening, partner with us, or simply start a dialogue, we want to hear from you.
           </p>
@@ -90,7 +90,7 @@ export default function Contact() {
             className="w-full lg:w-2/5 space-y-12"
           >
             <div>
-              <h3 className="font-serif text-3xl mb-8">Direct Contact</h3>
+              <h3 className="font-sans text-3xl mb-8">Direct Contact</h3>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <Mail className="text-primary mt-1" size={20} />
@@ -117,7 +117,7 @@ export default function Contact() {
             </div>
 
             <div>
-              <h3 className="font-serif text-3xl mb-8">Follow Us</h3>
+              <h3 className="font-sans text-3xl mb-8">Follow Us</h3>
               <div className="flex gap-6">
                 <a href="#" className="w-12 h-12 rounded-full border border-foreground/20 flex items-center justify-center hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-primary" aria-label="Follow us on Instagram">
                   <Instagram size={20} aria-hidden="true" />

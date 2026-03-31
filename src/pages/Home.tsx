@@ -73,9 +73,10 @@ export default function Home() {
         {/* Cinematic Background - Double Exposure Style */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/hero.png"
+            src="https://images.pexels.com/photos/36841120/pexels-photo-36841120.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
             alt="Hero background"
             className="w-full h-full object-cover object-center opacity-90"
+            referrerPolicy="no-referrer"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-background/10 via-background/30 to-background"></div>
         </div>

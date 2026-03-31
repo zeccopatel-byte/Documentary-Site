@@ -41,7 +41,7 @@ export default function Layout() {
         <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
           <Link
             to="/"
-            className="font-serif text-2xl font-bold tracking-tight transition-colors text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-sm px-1"
+            className="font-sans text-2xl font-bold tracking-tight transition-colors text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-sm px-1"
             aria-label="Echoes Home"
           >
             ECHOES
@@ -83,7 +83,7 @@ export default function Layout() {
                 <Link
                   key={link.name}
                   to={link.path}
-                  className="px-6 py-4 text-lg font-serif border-b border-muted/50 last:border-0 hover:bg-muted/30 transition-colors"
+                  className="px-6 py-4 text-lg font-sans border-b border-muted/50 last:border-0 hover:bg-muted/30 transition-colors"
                 >
                   {link.name}
                 </Link>
@@ -101,13 +101,13 @@ export default function Layout() {
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
-              <h3 className="font-serif text-2xl mb-4">ECHOES</h3>
+              <h3 className="font-sans text-2xl mb-4">ECHOES</h3>
               <p className="text-background/70 text-sm leading-relaxed max-w-xs">
                 A multi-film documentary project exploring the human stories behind the global migrant crisis.
               </p>
             </div>
             <div>
-              <h4 className="font-serif text-lg mb-4 text-primary">Explore</h4>
+              <h4 className="font-sans text-lg mb-4 text-primary">Explore</h4>
               <ul className="space-y-2 text-sm text-background/80">
                 <li><Link to="/films" className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-sm px-1">The Films</Link></li>
                 <li><Link to="/about" className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-sm px-1">About the Project</Link></li>
@@ -115,7 +115,7 @@ export default function Layout() {
               </ul>
             </div>
             <div>
-              <h4 className="font-serif text-lg mb-4 text-primary">Connect</h4>
+              <h4 className="font-sans text-lg mb-4 text-primary">Connect</h4>
               <ul className="space-y-2 text-sm text-background/80">
                 <li><a href="#" className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-sm px-1" aria-label="Visit our Instagram page">Instagram</a></li>
                 <li><a href="#" className="hover:text-white transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary rounded-sm px-1" aria-label="Visit our Twitter page">Twitter</a></li>

@@ -91,7 +91,7 @@ export default function Films() {
           transition={{ duration: 0.8 }}
           className="max-w-3xl mb-16"
         >
-          <h1 className="font-serif text-5xl md:text-6xl mb-6">The Films</h1>
+          <h1 className="font-sans text-5xl md:text-6xl mb-6">The Films</h1>
           <p className="text-foreground/70 text-xl leading-relaxed font-light">
             Four distinct narratives that weave together the global tapestry of human migration. Each film offers an intimate look at the individuals behind the statistics.
           </p>
@@ -131,7 +131,7 @@ export default function Films() {
                 <div className="uppercase tracking-widest text-primary text-sm font-medium mb-4">
                   {film.subject} • {film.route}
                 </div>
-                <h2 className="font-serif text-4xl mb-6">{film.title}</h2>
+                <h2 className="font-sans text-4xl mb-6">{film.title}</h2>
                 <p className="text-foreground/70 text-lg leading-relaxed mb-8">
                   {film.descriptor}
                 </p>

@@ -11,7 +11,7 @@ export default function FilmDetail() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-background">
         <div className="text-center">
-          <h1 className="font-serif text-4xl mb-4">Film not found</h1>
+          <h1 className="font-sans text-4xl mb-4">Film not found</h1>
           <Link to="/films" className="text-primary hover:underline">Return to films</Link>
         </div>
       </div>
@@ -39,7 +39,7 @@ export default function FilmDetail() {
             <div className="uppercase tracking-widest text-primary text-sm font-medium mb-4">
               {film.subject} • {film.route}
             </div>
-            <h1 className="font-serif text-5xl md:text-7xl mb-6 text-foreground">{film.title}</h1>
+            <h1 className="font-sans text-5xl md:text-7xl mb-6 text-foreground">{film.title}</h1>
           </motion.div>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function FilmDetail() {
 
               {/* Related Topics Tags */}
               <div className="mb-12" aria-labelledby="related-topics-heading">
-                <h3 id="related-topics-heading" className="text-sm font-serif uppercase tracking-widest text-foreground/60 mb-4">Related Topics</h3>
+                <h3 id="related-topics-heading" className="text-sm font-sans uppercase tracking-widest text-foreground/60 mb-4">Related Topics</h3>
                 <div className="flex flex-wrap gap-2" role="list">
                   {["Human Rights", "Migration", "Asylum", "Global Crisis", "Resilience", "Documentary"].map((tag) => (
                     <span 
@@ -145,7 +145,7 @@ export default function FilmDetail() {
               </div>
 
               <div className="prose prose-lg prose-stone max-w-none">
-                <h2 className="font-serif text-3xl mb-6 text-foreground">The Story</h2>
+                <h2 className="font-sans text-3xl mb-6 text-foreground">The Story</h2>
                 <p className="text-foreground/80 leading-relaxed font-light text-lg mb-6">
                   {film.story}
                 </p>
@@ -156,7 +156,7 @@ export default function FilmDetail() {
                   The filmmakers spent over two years embedded with the community, gaining unprecedented access to their daily struggles and triumphs. This extended period of observation allows the story to unfold naturally, revealing the complex layers of identity, belonging, and hope that define the refugee experience. It challenges viewers to look beyond the headlines and see the shared humanity that connects us all.
                 </p>
                 
-                <blockquote className="border-l-2 border-primary pl-6 my-12 italic text-xl text-foreground/90 font-serif">
+                <blockquote className="border-l-2 border-primary pl-6 my-12 italic text-xl text-foreground/90 font-sans">
                   "We didn't leave because we wanted to. We left because the sea was safer than the land."
                 </blockquote>
               </div>
@@ -166,7 +166,7 @@ export default function FilmDetail() {
             <div className="w-full lg:w-1/3 space-y-12">
               {/* Details */}
               <div className="bg-muted/30 p-8 rounded-sm">
-                <h3 className="font-serif text-2xl mb-6 border-b border-foreground/10 pb-4">Film Details</h3>
+                <h3 className="font-sans text-2xl mb-6 border-b border-foreground/10 pb-4">Film Details</h3>
                 <dl className="space-y-4 text-sm">
                   <div className="flex flex-col">
                     <dt className="text-foreground/50 uppercase tracking-widest text-xs mb-1">Director</dt>
@@ -193,7 +193,7 @@ export default function FilmDetail() {
 
               {/* Context */}
               <div>
-                <h3 className="font-serif text-2xl mb-6">Context</h3>
+                <h3 className="font-sans text-2xl mb-6">Context</h3>
                 <ul className="space-y-4">
                   {film.facts.map((fact, i) => (
                     <li key={i} className="flex gap-4 items-start text-foreground/80 text-sm leading-relaxed">
@@ -208,7 +208,7 @@ export default function FilmDetail() {
               <div className="pt-6 border-t border-foreground/10">
                 <div className="flex items-center gap-3 mb-6">
                   <MinusCircle className="text-primary shrink-0" size={24} />
-                  <h3 className="font-serif text-2xl text-foreground">Support Materials for Teachers</h3>
+                  <h3 className="font-sans text-2xl text-foreground">Support Materials for Teachers</h3>
                 </div>
                 <div className="pl-9 space-y-6">
                   <div>
@@ -224,7 +224,7 @@ export default function FilmDetail() {
               <div className="pt-6 border-t border-foreground/10">
                 <div className="flex items-center gap-3 mb-6">
                   <MinusCircle className="text-primary shrink-0" size={24} />
-                  <h3 className="font-serif text-2xl text-foreground">Support Materials for Use with Students</h3>
+                  <h3 className="font-sans text-2xl text-foreground">Support Materials for Use with Students</h3>
                 </div>
                 <div className="pl-9 space-y-6">
                   <div>
